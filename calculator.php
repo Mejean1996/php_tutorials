@@ -2,10 +2,13 @@
 $num1;
 $operator;
 $num2;
+
 $operator = readline("Enter Operator:[M=Multiplication, D=Division, S=Subtraction, A=Addition]\n ");
 if($operator== "A"){ 
+
 $num1 =  readline("Enter Addend:");
 $num2 = readline("Enter Subtrahend :");
+print "Sum: asor  ";
 print "Sum: ";
  echo  $num1 + $num2;
 }
